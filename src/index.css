@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  color: rgb(7, 230, 7);
+}
+
+.my-style {
+  background: fixed;
+  font-size: medium;
+  font-weight: bold;
+  color: rgb(101, 3, 194);
+
+}
+
+.img {
+  border-radius: 50%;
+  width: 10%;
+  height: 10%;
+}
