@@ -1,20 +1,24 @@
 import React from "react";
 import Card from "./Card";
+//import "/home/codeyourfuture/Documents/React/Projects/My Contacts/contacts/src/index.css";
+import contacts from "./contacs";
+
 function App() {
+  //console.log(contacts);
   return (
     <div>
-      <h1>My Contacts</h1>
+      <h1 className="heading">My Contacts</h1>
       <Card
-        name="Pare"
-        img="https://images.unsplash.com/photo-1600294808794-57bcf94a0c9e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHNrZWxldG9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-        tel="+0123 456 789"
-        email="p@pare.com"
+        name={contacts[0].name}
+        img={contacts[0].imgUrl}
+        tel={contacts[0].phone}
+        email={contacts[0].email}
       />
       <Card
-        name="Bare"
-        img="https://images.unsplash.com/photo-1603252945711-7b44a2e2bb69?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNrZWxldG9uJTIwYXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-        tel="+9876 543 210"
-        email="b@bare.com"
+        name={contacts[1].name}
+        img={contacts[1].imgUrl}
+        tel={contacts[1].phone}
+        email={contacts[1].email}
       />
     </div>
   );
