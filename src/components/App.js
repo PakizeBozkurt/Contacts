@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 //import "/home/codeyourfuture/Documents/React/Projects/My Contacts/contacts/src/index.css";
-import contacts from "./contacs";
+import contacts from "../contacs";
 
 function App() {
   //console.log(contacts);
