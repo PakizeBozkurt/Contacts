@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <h1 className="heading">My Contacts</h1>
-      <Avatar img="https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2tlbGV0b24lMjBhdmF0YXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" />
+      <Avatar img="https://media.istockphoto.com/id/1442681935/photo/scary-halloween-skeleton-with-red-hair.jpg?b=1&s=170667a&w=0&k=20&c=HeW2DIIdXFfPrOsjFZKchJm7Cf3PM9mI5T1y81Te__8=" />
       <Card
         name={contacts[0].name}
         img={contacts[0].imgUrl}

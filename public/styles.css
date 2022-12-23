@@ -4,7 +4,7 @@ body {
   padding: 55px;
   max-width: 400px;
   min-width: 400px;
-  background-color: #b8e0f1;
+  background-color: #aabbc3;
   text-align: center;
 }
 
@@ -19,7 +19,7 @@ body {
   border-radius: 75px;
   position: relative;
   padding: 75px 75px;
-  background-color: #bc85f0;
+  background-color: #978f9e;
   margin: 50px 0;
   height: 200px;
   box-shadow: 0 2px 5px #ccc;
@@ -30,7 +30,7 @@ body {
   border-radius: 25px 25px 0 0;
   height: 150px;
   width: 100%;
-  background-color: #fbb8c3;
+  background-color: #c23a51;
   position: absolute;
   top: 0;
   left: 0;
@@ -39,7 +39,7 @@ body {
 
 .name {
   font-size: 2em;
-  color: #2d3436;
+  color: #023442;
   display: flex;
   flex: 1;
   margin: 10% 20px 0;
@@ -51,7 +51,7 @@ body {
 
 .circle-img {
   border-radius: 5rem;
-  border: 6px solid #fff;
+  border: 6px solid rgb(234, 234, 240);
   width: 125px;
 }
 
@@ -61,6 +61,6 @@ body {
 
 .info {
   margin: 100px 0;
-  color: #131210;
-  font-size: 1.5em;
+  color: #0e0d0d;
+  font-size: 1.75em;
 }
