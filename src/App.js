@@ -1,13 +1,15 @@
 import React from "react";
-import Card from "./Card";
+import Card from "./components/Card";
 //import "/home/codeyourfuture/Documents/React/Projects/My Contacts/contacts/src/index.css";
-import contacts from "../contacs";
+import contacts from "./contacs";
+import Avatar from "./components/Avatar";
 
 function App() {
   //console.log(contacts);
   return (
     <div>
       <h1 className="heading">My Contacts</h1>
+      <Avatar />
       <Card
         name={contacts[0].name}
         img={contacts[0].imgUrl}
