@@ -9,4 +9,4 @@ jobs:
       - name: Greet with Custom Action
         uses: PakizeBozkurt/my-custom-action@master
         with:
-          name: "John"
+          name: "Siri"
